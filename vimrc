@@ -46,9 +46,6 @@ vnoremap > >gv
 set encoding=utf-8
 
 " Color scheme
-" set rtp+=/Users/brouchouse/dotfiles/vim/bundle/vim-wombat256mod/colors/wombat256mod.vim
-" set rtp+=C:\Users\Bruno\dotvim\vim\bundle\wombat256.vim
-" set rtp+=C:\Users\Bruno\dotvim\vim\bundle\badwolf
 set background=dark
 set t_Co=256
 colorscheme wombat256mod
@@ -93,7 +90,7 @@ au FileType py set textwidth=79 " PEP-8 Friendly
 
 " NERD_tree config
 let NERDTreeChDirMode=2
-let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$']
+let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$','\.swp$']
 let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
 map <F3> :NERDTreeToggle<CR>
