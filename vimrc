@@ -46,11 +46,12 @@ vnoremap > >gv
 set encoding=utf-8
 
 " Color scheme
-set rtp+=C:\Users\Bruno\dotvim\vim\bundle\wombat256.vim
-set rtp+=C:\Users\Bruno\dotvim\vim\bundle\badwolf
+" set rtp+=/Users/brouchouse/dotfiles/vim/bundle/vim-wombat256mod/colors/wombat256mod.vim
+" set rtp+=C:\Users\Bruno\dotvim\vim\bundle\wombat256.vim
+" set rtp+=C:\Users\Bruno\dotvim\vim\bundle\badwolf
 set background=dark
 set t_Co=256
-"color wombat256mod
+colorscheme wombat256mod
 "color badwolf
 
 
