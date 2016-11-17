@@ -140,7 +140,7 @@ set noswapfile
 " Setting for vim-powerline
 " cd ~/.vim/bundle
 " git clone git://github.com/Lokaltog/vim-powerline.get
-set rtp+=$HOME/dotvim/vim/bundle/vim-powerline
+set rtp+=/Users/brouchouse/Library/Python/3.4/lib/python/site-packages/powerline/bindings/vim
 set laststatus=2
 
 " Settings for ctrlp
