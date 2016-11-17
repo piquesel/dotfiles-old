@@ -31,4 +31,5 @@ References
       http://stackoverflow.com/questions/5427414/editing-a-git-submodule
     - Commit changes in a submodule:
       http://stackoverflow.com/questions/5542910/how-do-i-commit-changes-in-a-git-submodule
-
+    - Powerline:
+      http://www.tecmint.com/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/
